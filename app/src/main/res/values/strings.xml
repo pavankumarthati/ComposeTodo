@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComposeTodo</string>
+    <string name="no_tasks_found">No tasks found</string>
+    <string name="active_tasks">Active Tasks</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="completed_tasks">Completed Tasks</string>
+</resources>
