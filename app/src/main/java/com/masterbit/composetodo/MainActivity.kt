@@ -78,7 +78,8 @@ class MainActivity : ComponentActivity() {
                                 } },
                                 closeDrawer = { scope.launch { scaffoldState.drawerState.close() } }
                             )
-                        }
+                        },
+                        drawerGesturesEnabled = currentRoute == TODO_LIST
                     ) {
                         TodoNavGraph(
                             scaffoldState = scaffoldState,
